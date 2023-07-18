@@ -27,7 +27,8 @@ class Solution:
             message = message.upper()
             for m in message:
                  string = string + MORSE_CODE_DICT[m]
-                 string = string+""
+                 string = string+" "
+                
             print(string)
             return string
                  
